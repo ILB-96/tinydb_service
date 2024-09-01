@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tinydb-service"
+version = "0.1.0"
+description = "TinyDB operations injection for data access object"
+authors = ["Israel Barmack <israel.bar.dev@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tinydb = "^4.5.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.3"
+mypy = "^1.11.2"
+bandit = "^1.7.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
